@@ -24,11 +24,11 @@
         <div id="logo">
           <h1 id="logo-text">CHEEKY</h1>
         </div>
-        <aside id="login" hidden>
-          <button class="btn" id="button-login"><b>Log In</b></button>
+        <aside id="login" >
+          <button class="btn" id="button-login" onclick="toggleHidden()"><b>Log In</b></button>
         </aside>
-        <aside id="logged-in" class="text-end">
-          <button class="btn mt-2" id="button-login">
+        <aside id="logged-in" class="text-end" hidden>
+          <button class="btn mt-2" id="button-login" >
             <img src="./resources/user.svg" alt="User Icon" width="24px" />
           </button>
           <p class="p-1 mt-2"><b>Joe Bloggs</b></p>
@@ -148,5 +148,6 @@
         <!-- Rest Card End -->
       </section>
     </main>
+    <script src="./resources/src/script.js" type="text/javascript"></script>
   </body>
 </html>
