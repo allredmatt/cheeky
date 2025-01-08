@@ -1,0 +1,51 @@
+:root {
+  --main-theme-color: #fcca46;
+  --main-theme-bg: #ede9e9;
+  --main-theme-primary: #87ff65;
+}
+
+body {
+  background-color: var(--main-theme-bg);
+  overflow-x: hidden;
+}
+
+#logo {
+  background-color: var(--main-theme-color);
+  width: 285px;
+  height: 143px;
+  border-radius: 15px;
+  position: relative;
+}
+
+#logo-text {
+  position: absolute;
+  right: 15px;
+  bottom: 0px;
+  font-size: 72px;
+  font-family: "Karantina", serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 10px;
+}
+
+#button-login {
+  background-color: var(--main-theme-primary);
+}
+
+.primary-background {
+    background-color: var(--main-theme-color);
+}
+
+.text-font-michroma {
+  font-family: "Michroma", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.card-min-background {
+    min-width: 140px;
+}
+
+.card-container-noscroll {
+    overflow-x: auto;
+}
