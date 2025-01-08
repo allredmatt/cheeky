@@ -49,3 +49,7 @@ body {
 .card-container-noscroll {
     overflow-x: auto;
 }
+
+hr {
+    border-color: var(--main-theme-primary);
+}
